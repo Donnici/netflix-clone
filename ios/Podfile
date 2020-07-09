@@ -83,6 +83,8 @@ target 'netflix' do
 
   pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   target 'netflixTests' do
     inherit! :complete
     # Pods for testing

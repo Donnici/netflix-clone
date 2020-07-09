@@ -13,6 +13,7 @@ export const movieByGenre = (movies, genres) => {
 				id: movie.id,
 				title: movie.title,
 				poster_path: movie.poster_path,
+				original_title: movie.original_title,
 				overview: movie.overview,
 				release_date: movie.release_date
 			});

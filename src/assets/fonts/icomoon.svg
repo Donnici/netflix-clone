@@ -9,4 +9,6 @@
 <glyph unicode="&#x20;" horiz-adv-x="512" d="" />
 <glyph unicode="&#xe900;" glyph-name="home" d="M426 84.667h-212v342h-128l426 384 426-384h-128v-342h-212v256h-172v-256z" />
 <glyph unicode="&#xe901;" glyph-name="search" d="M406 340.667q80 0 136 56t56 136-56 136-136 56-136-56-56-136 56-136 136-56zM662 340.667l212-212-64-64-212 212v34l-12 12q-76-66-180-66-116 0-197 80t-81 196 81 197 197 81 196-81 80-197q0-42-20-95t-46-85l12-12h34z" />
+<glyph unicode="&#xe902;" glyph-name="play" d="M342 724.667l468-298-468-298v596z" />
+<glyph unicode="&#xe903;" glyph-name="arrow_back" d="M854 468.667v-84h-520l238-240-60-60-342 342 342 342 60-60-238-240h520z" />
 </font></defs></svg>

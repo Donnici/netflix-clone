@@ -6,6 +6,7 @@ export const theme = {
         contrastText: '#ffffff'
     },
     background: '#000000',
+    black: '#000000',
     white: "#ffffff",
     gray: "#808080",
     screen: {

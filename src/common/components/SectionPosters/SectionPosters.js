@@ -5,18 +5,23 @@ import {
 	SectionPosterTitle,
 	SectionPosterScroll
 } from '~/common/styles/poster/sectionPosters';
-import { Poster } from '~/common/styles/poster/poster';
+import { PosterTouchable, Poster } from '~/common/styles/poster/poster';
 import { BASE_URL_IMG } from '~/config/consts';
 
-const SectionPosters = ({ title, movies }) => {
+const SectionPosters = ({ nav, title, movies }) => {
 	const renderPosters = () => {
 		return movies.map((movie) => (
-			<Poster
-				key={movie.id}
-				source={{
-					uri: `${BASE_URL_IMG}${movie.poster_path}`
-				}}
-			/>
+			<PosterTouchable key={movie.id} onPress={() =>
+				nav.navigate('Details', {
+					data: movie
+				})
+			}>
+				<Poster
+					source={{
+						uri: `${BASE_URL_IMG}${movie.poster_path}`
+					}}
+				/>
+			</PosterTouchable>
 		));
 	};
 

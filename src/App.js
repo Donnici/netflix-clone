@@ -3,7 +3,6 @@ import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
 
-import { LANG } from './config/consts';
 import { theme } from './common/styles';
 import { ThemeProvider as StyledTheme } from 'styled-components';
 import Routes from './main/Routes';

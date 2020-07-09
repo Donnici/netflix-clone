@@ -27,7 +27,10 @@ export const SearchInput = styled.TextInput.attrs({
 
 export const ContentScroll = styled.ScrollView.attrs({
 	contentContainerStyle: {
-		display: 'flex'
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center'
 	}
 })`
 	padding-bottom: 10px;
